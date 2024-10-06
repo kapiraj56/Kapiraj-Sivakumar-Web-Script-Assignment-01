@@ -1,0 +1,46 @@
+/*added media query for tablet devices */
+@media only screen and (max-width:600px){
+    /* added wrapper to tablet wby adding width */
+    .wrapper{
+        width: 90%;
+    }
+/* added navbar to tablet by adding flex-direction and padding*/
+    .navbar{
+        flex-direction: column;
+        padding: 10px;
+
+    }
+/* added contact to tablet by adding width*/
+    .Contact{
+        width: 80%;
+    }
+/* added of picute of me to tablet by adding height and margin*/
+    .me{
+        height: 300px;
+        margin: 10px;
+
+    }
+    /* added video to tablet ny adding height and margin to fix screen*/
+    .video {
+        height: 200px;
+        margin: 30px
+    }
+    /* added h1 to tablet by adding front-size */
+    h1{
+        front-size: 2em;
+    }
+/* added submit button to tablet by adding padding style */
+    input[type="submit"]{
+        padding: 15px 10px;
+    }
+/* added p & h3 to tablet by adding front-size*/
+    p, h3{
+        font-size: 1em;
+    }
+/* added slider to tablet by adding apect-ratio to fit screen */
+    .slider{
+        aspect-ratio: 16/9;
+    }
+
+
+}

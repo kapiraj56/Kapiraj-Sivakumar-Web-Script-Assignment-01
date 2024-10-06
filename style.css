@@ -1,0 +1,209 @@
+
+/* here I set up the body where we did the background and sizing of it */
+body{
+    margin: 0px;
+    flex-direction: column;
+
+    background: black;
+    background: -moz-linear-gradient(45deg, #000000, rgb(63, 23, 63));
+    background: -webkit-linear-gradient(#000000, rgb(63, 23, 63));
+    background: -o-linear-gradient(45deg, #000000, rgb(63, 23, 63));
+    background: linear-gradient(to top,#000000, rgb(63, 23, 63)); 
+    font-family: Verdana, Geneva, Arial, sans-serif; 
+    padding:0px; 
+    margin:0px; 
+}
+
+
+/* here I did more sizing */
+main{
+    margin-left: 20px;
+    margin-right: 20px; 
+}
+/* here we lined it up and set the front colour*/
+h1{
+    text-align: center;
+    color: white;
+}
+/* here I did more sizing, lining and border */
+.me{
+    max-width: 100%;
+    height: 400px;
+    float: left;
+    object-fit: cover;
+    margin: 20px ;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+}
+
+/* here I configered the wrapper to make elements from the html flie line up */
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+/* here I styled the nav bar by spacing it out, positioning the elements, setting the colours for both the words and backgrounds and also set the padding*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(112, 24, 195);
+    padding: 14px 20px;
+    color:white
+}
+/* here I did more styling to the nav bar */
+.navbar ul{
+    list-style-type: none;
+    background-color: rgb(112, 24, 195);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+/* here I did more styling to the nav bar by setting colour and also placing the elements to the right */
+.navbar a{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 20px;
+    display: block;
+    float: right;
+    text-decoration: none;
+
+  
+}
+/* here I added a hover style so when users have over the colour changes ans this will help users know where curser is*/
+.navbar a:hover{
+    background-color:rgb(105, 37, 169) ;
+}
+/* more nav bar styling to help format*/ 
+.navbar li{
+    float: left;
+}
+
+/*here I centered the title and set the colour*/
+.Contact{
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    color: white;
+}
+/* here I set the border of the form*/
+form{
+    border: 3px black; 
+}
+/* here I setup the texterea fields to size everything in the page*/
+input[type=text],input[type=Email],textarea{
+    width: 100%;
+    padding: 12px;
+    border-radius: px;
+    resize: vertical;
+}
+/* here I styled the name of the inputs so it all lines up nicely on the page*/
+label{
+    padding: 12px 12px 12px 0px;
+    display: inline-block;
+}
+/* here I styled the submit by adding colour, border setting, and location*/
+input[type= submit]{
+    background-color: rgb(112, 24, 195);
+    padding: 24px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    color: white;
+}
+/*here I added a hover feature when users hover over it changes the colours*/
+input[type=submit]:hover{
+    background-color: rgb(105, 37, 169);
+}
+/* here is some more styling for the contact title*/
+.Contact h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+/* Í added colour to the discription so it stands out*/
+p{
+    color: white;
+}
+/* added colour to the title of the page*/
+h3{
+    color: white;
+}
+/* here I styled the slider with the wrapper so it follows the other wrapper settings*/ 
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+}
+/* here I added the transitions to make to slide smoothy and set the sizing*/
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9; 
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25%);
+    border-radius: 0.5rem;
+}
+
+/* here I added more sizing for the images in the slider so it is sized right in the slider*/
+.slider img{
+    flex:1 0 100%;
+    scroll-snap-align: start;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+/*here is more styling added to the slider*/
+.slider-nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+/* here is more styling I'vr added with also adding colour to it so users can see it */
+.slider-nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: black;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+/* here i added to hover style so users can see the slider when they are on it*/
+.slider-nav a:hover {
+    opacity: 1;
+
+}
+/* here I added stles to the video so i can size and fit in the page without effected the other elements on the page*/
+.video {
+        max-width: 100%;
+        float: left;
+        object-fit: cover;
+        margin-top: 150px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px black;
+        display: block;
+    }
+/* here I added styles to the footer so it gets set to the bottem left of the page and has colour thats see able*/
+footer {
+        color: white;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        text-align: left;
+        width: auto;
+        z-index: 999;     
+}
+/* here I added more style to the footer so it is more appealing */
+footer a{
+    color: white;
+    text-decoration: none;
+}
+    
+
+   
+    

@@ -1,0 +1,42 @@
+/* added media query for mobile devices */
+@media only screen and (max-width:599px){
+    .wrapper{
+        width: 90%;
+    }
+ /* added nav bar for moblie view by added flex-direction and padding */   
+    .navbar{
+        flex-direction: column;
+        padding: column;
+    }
+    /* added contacts to mobile view by adding width size */
+    .Contact{
+        width: 80%;
+    }
+/* added a picture to mobile view by adding height and margin */
+    .me{
+        height: 300px;
+        margin: 10px;
+    }
+/* added video to mobile view by adding height and margin */
+    .video {
+        height: 200px;
+        margin: 50px
+    }
+    /* added h1 to mobile view by adding font-style */
+    h1{
+        font-style: 2em;
+    }
+/* added submit button to moblie view by adding padding to it*/
+    input[type="sumbit"]{
+        padding: 15px 10px;
+    }
+/* added p and h3 to mobile view by adding font-size*/
+    p, h3 {
+        font-size: 1em;
+    }
+/* added slider to mobile view by adding aspect-ratio */
+    .slider{
+        aspect-ratio: 16/9;
+        
+    }
+}

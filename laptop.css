@@ -1,0 +1,46 @@
+
+/*media query for laptop devices*/
+@media only screen and (min-width: 900px) and (max-width: 1440px) {
+    /* added wrapper settings for laptop view by added size*/
+    .wrapper {
+        width: 80%; 
+    }
+/* added nav bar setting for laptop view by added padding*/
+    .navbar {
+        padding: 20px; 
+    }
+/* added contacts setting for laptop view by adding contact*/
+    .Contact {
+        width: 60%;  
+    }
+/* added me picture setting for laptop view by adding height and margin */
+    .me {
+        height: 450px; 
+        margin: 15px; 
+    }
+/* added video setting for laptop view by added height and margin */
+    .video {
+        height: 200px;
+        margin: 50px
+    }
+/* added h1 setting for laptop view by adding font size */
+    h1 {
+        font-size: 2.5em; 
+    }
+/* added submit button for laptop view by adding padding */ 
+    input[type="submit"] {
+        padding: 20px 15px; 
+    }
+/* added p & h3 for laptop view by adding font size*/
+    p, h3 {
+        font-size: 1.1em; 
+    }
+/* added slider for laptop view by adding aspect-ratio*/
+    .slider{
+        aspect-ratio: 16/9;
+    }
+    
+    }
+
+
+    
